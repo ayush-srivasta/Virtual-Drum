@@ -38,4 +38,9 @@ function BufferLoader(context, urlList, callback) {
     
       request.send();
 }
+BufferLoader.prototype.load = function() {
+  for (var i = 0; i < this.urlList.length; ++i)
+  this.loadBuffer(this.urlList[i], i);
+}
+
   
