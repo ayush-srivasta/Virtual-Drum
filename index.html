@@ -22,7 +22,7 @@
                 </label>                        
         </div>
         <div id="errorMsg" class="col-12 alert-danger d-none">
-        Fail to start camera <br>
+        Fail to WebCam <br>
         Please allow permission to access camera. <br>
         </div>
         <div class="drum-background">
@@ -52,14 +52,14 @@
                     <video id="webcam" autoplay playsinline width="640" height="480"></video>
                     <canvas id="canvas-source" width="640" height="480"></canvas>
                     <div class="motion-cam">
-                        <div class="motion-cam-title">Motion Cam</div>
+                        <div class="motion-cam-title"></div>
                         <canvas id="canvas-blended" width="640" height="480"></canvas>
                     </div>
                 </div>
                 <div class="drum-container">
                     <div class="row row-top">
                         <div class="col-6 col-sm-3">
-                            <img class="virtual-drum" src="images/cymbal.png" name="crash" vd-id='0'>
+                            <img class="virtual-drum" src="images/cymbal.png" style="margin-bottom: 2rem;" name="crash" vd-id='0'>
                         </div>
                         <div class="col-6 col-sm-3 offset-sm-6 d-none d-sm-inline">
                             <img class="virtual-drum" src="images/hi-hat.png" name="hi-hat" vd-id='1'>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="col-5 p-sm-3 p-0">
-                            <img class="virtual-drum" src="images/Bass-Drum.png" name="kick" vd-id='3'>
+                            <img class="virtual-drum" src="images/Bass-Drum.png" style="height: 20rem; width: 23rem;" name="kick" vd-id='3'>
                             <div class="spinner-grow text-primary d-none" role="status" id="kick-glowing">
                                 <span class="sr-only">Loading...</span>
                             </div>
