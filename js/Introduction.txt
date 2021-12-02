@@ -1,0 +1,10 @@
+Introduction
+Motivation
+Existing solutions?
+Gap?
+System architecture
+Algorithmic steps
+Output
+Metrics - Accuracy; Delay
+Conclusion and future work
+References
